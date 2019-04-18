@@ -2,7 +2,6 @@ package com.wangzhaosheng.xcwh.service;
 
 
 import com.wangzhaosheng.xcwh.dao.impl.AdminDaoipml;
-import com.wangzhaosheng.xcwh.dao.impl.AdminDaoImpl;
 import com.wangzhaosheng.xcwh.domain.Admin;
 import com.wangzhaosheng.xcwh.service.Impl.AdminServiceImpl;
 
