@@ -6,7 +6,12 @@ import com.wangzhaosheng.xcwh.domain.Admin;
 import com.wangzhaosheng.xcwh.service.Impl.AdminServiceImpl;
 
 public class AdminService implements AdminServiceImpl {
-    private AdminDaoipml dao=new AdminDaoImpl();
+    private AdminDaoipml dao=new AdminDaoipml() {
+        @Override
+        public Admin login(Admin admin) {
+            return null;
+        }
+    };
     @Override
     public Admin login(Admin admin) {
         //此处加密
