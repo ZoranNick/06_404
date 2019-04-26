@@ -2,7 +2,6 @@ package com.wangzhaosheng.xcwh.servlet;
 
 
 import com.wangzhaosheng.xcwh.domain.Admin;
-import com.wangzhaosheng.xcwh.service.Impl.AdminServiceImpl;
 
 import java.io.IOException;
 
